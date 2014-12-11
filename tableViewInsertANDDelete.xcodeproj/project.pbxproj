@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A6262F193469F300CBC559 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6262E193469F300CBC559 /* MBProgressHUD.m */; };
+		00FD6DD018E2CC2E0057B390 /* delegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD6DCE18E2CC2E0057B390 /* delegateViewController.m */; };
+		00FD6DD118E2CC2E0057B390 /* delegateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FD6DCF18E2CC2E0057B390 /* delegateViewController.xib */; };
 		2CF76A2718A19E7700BD4646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF76A2618A19E7700BD4646 /* Foundation.framework */; };
 		2CF76A2918A19E7700BD4646 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF76A2818A19E7700BD4646 /* CoreGraphics.framework */; };
 		2CF76A2B18A19E7700BD4646 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF76A2A18A19E7700BD4646 /* UIKit.framework */; };
@@ -19,6 +22,10 @@
 		2CF76A4218A19E7800BD4646 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF76A2A18A19E7700BD4646 /* UIKit.framework */; };
 		2CF76A4A18A19E7800BD4646 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CF76A4818A19E7800BD4646 /* InfoPlist.strings */; };
 		2CF76A4C18A19E7800BD4646 /* tableViewInsertANDDeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF76A4B18A19E7800BD4646 /* tableViewInsertANDDeleteTests.m */; };
+		2CF76A5818A19E8C00BD4646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF76A5618A19E8C00BD4646 /* ViewController.m */; };
+		2CF76A5918A19E8C00BD4646 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF76A5718A19E8C00BD4646 /* ViewController.xib */; };
+		2CF76A5D18A1A85C00BD4646 /* imageDownloadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF76A5B18A1A85C00BD4646 /* imageDownloadingViewController.m */; };
+		2CF76A5E18A1A85C00BD4646 /* imageDownloadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF76A5C18A1A85C00BD4646 /* imageDownloadingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A6262D193469F300CBC559 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		00A6262E193469F300CBC559 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		00FD6DCD18E2CC2E0057B390 /* delegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateViewController.h; sourceTree = "<group>"; };
+		00FD6DCE18E2CC2E0057B390 /* delegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateViewController.m; sourceTree = "<group>"; };
+		00FD6DCF18E2CC2E0057B390 /* delegateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = delegateViewController.xib; sourceTree = "<group>"; };
 		2CF76A2318A19E7700BD4646 /* tableViewInsertANDDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewInsertANDDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF76A2618A19E7700BD4646 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CF76A2818A19E7700BD4646 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,12 @@
 		2CF76A4718A19E7800BD4646 /* tableViewInsertANDDeleteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tableViewInsertANDDeleteTests-Info.plist"; sourceTree = "<group>"; };
 		2CF76A4918A19E7800BD4646 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CF76A4B18A19E7800BD4646 /* tableViewInsertANDDeleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewInsertANDDeleteTests.m; sourceTree = "<group>"; };
+		2CF76A5518A19E8C00BD4646 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CF76A5618A19E8C00BD4646 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CF76A5718A19E8C00BD4646 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2CF76A5A18A1A85C00BD4646 /* imageDownloadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageDownloadingViewController.h; sourceTree = "<group>"; };
+		2CF76A5B18A1A85C00BD4646 /* imageDownloadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageDownloadingViewController.m; sourceTree = "<group>"; };
+		2CF76A5C18A1A85C00BD4646 /* imageDownloadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imageDownloadingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,8 @@
 		2CF76A1A18A19E7700BD4646 = {
 			isa = PBXGroup;
 			children = (
+				00A6262D193469F300CBC559 /* MBProgressHUD.h */,
+				00A6262E193469F300CBC559 /* MBProgressHUD.m */,
 				2CF76A2C18A19E7700BD4646 /* tableViewInsertANDDelete */,
 				2CF76A4518A19E7800BD4646 /* tableViewInsertANDDeleteTests */,
 				2CF76A2518A19E7700BD4646 /* Frameworks */,
@@ -111,6 +131,15 @@
 				2CF76A3618A19E7700BD4646 /* AppDelegate.m */,
 				2CF76A3818A19E7700BD4646 /* Images.xcassets */,
 				2CF76A2D18A19E7700BD4646 /* Supporting Files */,
+				2CF76A5518A19E8C00BD4646 /* ViewController.h */,
+				2CF76A5618A19E8C00BD4646 /* ViewController.m */,
+				2CF76A5718A19E8C00BD4646 /* ViewController.xib */,
+				2CF76A5A18A1A85C00BD4646 /* imageDownloadingViewController.h */,
+				2CF76A5B18A1A85C00BD4646 /* imageDownloadingViewController.m */,
+				2CF76A5C18A1A85C00BD4646 /* imageDownloadingViewController.xib */,
+				00FD6DCD18E2CC2E0057B390 /* delegateViewController.h */,
+				00FD6DCE18E2CC2E0057B390 /* delegateViewController.m */,
+				00FD6DCF18E2CC2E0057B390 /* delegateViewController.xib */,
 			);
 			path = tableViewInsertANDDelete;
 			sourceTree = "<group>";
@@ -219,8 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FD6DD118E2CC2E0057B390 /* delegateViewController.xib in Resources */,
 				2CF76A3118A19E7700BD4646 /* InfoPlist.strings in Resources */,
+				2CF76A5918A19E8C00BD4646 /* ViewController.xib in Resources */,
 				2CF76A3918A19E7700BD4646 /* Images.xcassets in Resources */,
+				2CF76A5E18A1A85C00BD4646 /* imageDownloadingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FD6DD018E2CC2E0057B390 /* delegateViewController.m in Sources */,
+				00A6262F193469F300CBC559 /* MBProgressHUD.m in Sources */,
+				2CF76A5818A19E8C00BD4646 /* ViewController.m in Sources */,
 				2CF76A3718A19E7700BD4646 /* AppDelegate.m in Sources */,
+				2CF76A5D18A1A85C00BD4646 /* imageDownloadingViewController.m in Sources */,
 				2CF76A3318A19E7700BD4646 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +477,7 @@
 				2CF76A5118A19E7800BD4646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CF76A5218A19E7800BD4646 /* Build configuration list for PBXNativeTarget "tableViewInsertANDDeleteTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +486,7 @@
 				2CF76A5418A19E7800BD4646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
